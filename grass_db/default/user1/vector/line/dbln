@@ -1,0 +1,1 @@
+1/streets_small line cat $GISDBASE/$LOCATION_NAME/$MAPSET/dbf/ dbf

@@ -1,0 +1,11 @@
+COMMAND: v.in.ogr -o dsn="/media/8CE5-34D9/dataset/streets_small.shp" output="line" min_area=0.0001 snap=-1
+GISDBASE: /home/rachitkansal/QGISbuild/output/python/plugins/NetworkAnalysisTool/grass_db
+LOCATION: default MAPSET: user1 USER: rachitkansal DATE: Thu Jul 16 13:59:08 2015
+---------------------------------------------------------------------------------
+COMMAND: v.net input="line" points="points" output="network" operation="connect" alayer=1 nlayer=2 thresh=1000.0
+GISDBASE: /home/rachitkansal/QGISbuild/output/python/plugins/NetworkAnalysisTool/grass_db
+LOCATION: default MAPSET: user1 USER: rachitkansal DATE: Thu Jul 16 13:59:14 2015
+---------------------------------------------------------------------------------
+COMMAND: v.db.connect map="network" driver="dbf" database="$GISDBASE/$LOCATION_NAME/$MAPSET/dbf/" table="point" key="cat" layer=2 fs=" "
+GISDBASE: /home/rachitkansal/QGISbuild/output/python/plugins/NetworkAnalysisTool/grass_db
+LOCATION: default MAPSET: user1 USER: rachitkansal DATE: Thu Jul 16 13:59:24 2015

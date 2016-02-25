@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/NetworkAnalysisTool" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,2 @@
+1/streets_small network cat $GISDBASE/$LOCATION_NAME/$MAPSET/dbf/ dbf
+2 point cat $GISDBASE/$LOCATION_NAME/$MAPSET/dbf/ dbf
