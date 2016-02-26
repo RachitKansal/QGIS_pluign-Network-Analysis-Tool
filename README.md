@@ -6,3 +6,6 @@ This is plugin used to perform Network allocation and closest facility analysis 
 2. Closest Facility: Given a road network and a point vector layer representing facilities, we can find the nearest facility from any user specified point in the map. We can also enlist the facilities within a given threshold distance from a given point in the network.
 
 # Screen Shots
+![Network Allocation](/Screenshots/Network Allocation.JPG?raw=true "Network Allocation")
+
+![Closest Facility](/Screenshots/Closest Facility.JPG?raw=true "Closest Facility")
